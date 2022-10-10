@@ -588,3 +588,192 @@ font-size: 18px;
 line-height: 1.172em;
 font-weight: 600;
 }
+.Follow-journey1 {
+	margin-top: 310px !important;
+	border-radius: 45px;
+	box-shadow: 0 0 8px -4px rgba(251, 15, 90, 0.03), 0 14px 34px 0 rgba(251, 15, 90, 0.06), 0 24px 44px 0 rgba(11, 9, 27, 0.02);
+	padding: 40px;
+	padding-bottom: 60px;
+}
+.Follow-journey1 h1{
+	font-size: 32px !important;
+	margin-bottom: 30px;
+}
+.Follow-journey1 .box{
+	margin-bottom: 30px;
+	display: flex;
+}
+.Follow-journey1 .box h3{
+	align-items: center;
+}
+.Follow-journey1 .box img{
+	cursor: pointer;
+	width: 60px;
+	border-radius: 15px;
+	margin-right: 25px;
+	box-shadow: 0 21px 28px 0 rgba(21, 116, 239, 0.21)
+}
+
+.Sponsors{
+	margin-top: 70px;
+	
+		padding-top: 160px;
+		padding-bottom: 180px;
+		background-color: #f9f9fd;
+	
+}
+.Sponsors .box{
+	margin-top: 30px;
+	border-radius: 28px 28px 60px;
+	background-color: #fff;
+	box-shadow: 0 0 8px -4px rgba(251, 15, 90, 0.03), 0 14px 34px 0 rgba(251, 15, 90, 0.06), 0 24px 44px 0 rgba(11, 9, 27, 0.02);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 58px 30px;
+}
+
+
+.my-video-dimensions {
+	width: 76%;
+	height: 499px;
+}
+.video-js .vjs-big-play-button {
+	font-size: 3em;
+	line-height: 2.5em !important;
+	height: 2.633em !important;
+	width: 4em !important;
+	display: block;
+	position: absolute;
+	top: 45% !important;
+	left: 45% !important;
+	padding: 0;
+	cursor: pointer;
+	opacity: 1;
+	border: 0.06666em solid #fff;
+	background-color: #ffffff !important;
+
+	border-radius: 28px !important;
+	transition: all 0.4s;
+}
+.video-js button {
+	color: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	text-transform: none;
+	color: #fb0f5a !important;
+	font-size: 30px !important;
+}
+.video-js {
+	border-radius: 25px !important;
+	width: 100%;
+
+}
+
+
+.Audience-slider .banner-slider-team .previous-arrow {
+	position: absolute;
+	bottom: 262px;
+	left: -58px;
+	z-index: 1111111;
+	color: #f1d6df;
+	font-size: 11px;
+	padding: 19px 23px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f02929d7 !important;
+	font-size: 30px;
+}
+
+
+.Audience-slider .banner-slider-team .next-arrow {
+	position: absolute;
+	bottom: 262px;
+	right: -58px;
+	color: #f1d6df;
+	font-size: 11px;
+	padding: 19px 23px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f02929d7 !important;
+	font-size: 30px;
+}
+
+.Audience-slider .banner-slider-team .item .one{
+	margin-top: 30px !important;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+.Audience-slider .banner-slider-team .item{
+
+	margin: 70px;
+	border-radius: 25px;
+	padding: 35px;
+	background-color: #fff;
+	box-shadow: 0 0 8px -4px rgba(251, 15, 90, 0.03), 0 14px 34px 0 rgba(251, 15, 90, 0.06), 0 24px 44px 0 rgba(11, 9, 27, 0.02);
+}
+
+.Audience-slider .banner-slider-team{
+
+	padding-bottom: 50px;
+}
+.Audience-slider .banner-slider-team .item img{
+	cursor: pointer;
+	width: 80px;
+	border-radius: 15px;
+	margin-right: 25px;
+	box-shadow: 0 21px 28px 0 rgba(21, 116, 239, 0.21)
+
+}
+
+.Audience-slider .banner-slider-team .item .text h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #0b091b;
+	font-size: 26px;
+	line-height: 1.308em;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	font-family: 'Montserrat', sans-serif;
+}
+.Audience-slider .banner-slider-team .item .text p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fb0f5a;
+	font-size: 20px;
+	line-height: 1.308em;
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Audience-slider .banner-slider-team .item  .two1 .part-one{
+
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.Audience-slider .banner-slider-team .item  .two1 .part-one h1{
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 10px;
+	color: #0b091b;
+	font-size: 40px;
+	line-height: 1em;
+	font-weight: 800;
+}
+.Audience-slider .banner-slider-team .item  .two1 .part-one h1 i{
+
+	margin-right: 10px;
+	color: #ffffff;
+	background-color: #fb0f5a;
+	padding: 15px;
+	border-radius: 100px;
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: 800;
+}
