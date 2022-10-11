@@ -777,3 +777,186 @@ font-weight: 600;
 	line-height: 1em;
 	font-weight: 800;
 }
+
+.one .photo .ba1 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	top: 0;
+	left: -98px;
+	z-index: -1;
+}
+.one .photo .ba2 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	top: 0;
+	right: 16px;
+	z-index: -1;
+}
+.one .photo .ba3 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: -123px;
+	left: -20px;
+	z-index: -1;
+}
+.one .photo .ba4 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: -154px;
+	right: -38px;
+	z-index: -1;
+}
+.one .photo .home-img{
+	width: 90%;
+}
+
+
+.photo-one  .ba4 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: 30px !important;
+	right: -8px !important;
+	z-index: -1;
+}
+
+.photo-one .ba2 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	top: -64px !important;
+	right: -62px !important;
+	z-index: -1;
+}
+.photo-one  .ba3 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: -61px !important;
+	left: -54px !important;
+	z-index: -1;
+}
+
+.one .email i {
+	margin-right: 10px;
+	color: #ffffff;
+	background-color: #fb0f5a;
+	padding: 17px;
+	border-radius: 100px;
+	font-size: 28px;
+	line-height: 1em;
+	font-weight: 800;
+}
+.one .email p{
+color: #000;
+font-size: 20px;
+}
+
+.contact-from{
+	position: relative;
+	margin-top: 200px;
+}
+.contact-from .new-from {
+	position: relative;
+}
+.contact-from .new-from .photo {
+	position: absolute;
+	top: 0;
+}
+.contact-from .new-from .box{
+	border-bottom:1px solid rgba(0, 0, 0, 0.185) ;
+}
+.contact-from .new-from .box:hover{
+	border-bottom:1px solid #fb0f5a ;
+	transition: 0.4s;
+}
+.contact-from .new-from .from-box {
+	z-index: 999;
+	padding: 30px 63px;
+	border-radius: 35px;
+	box-shadow: 0 7px 14px 0 rgba(16, 10, 52, 0.03), 0 14px 50px 0 rgba(102, 7, 255, 0.04);
+	padding-bottom: 70px !important;
+}
+.contact-from .new-from .from-box h1{
+	font-size: 32px;
+	text-align: left;
+}
+.contact-from .new-from .from-box a{
+	position: relative;
+	top: 15px;
+	margin-top: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+line-height: 1em;
+font-weight: 800;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+.form-control {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	width: 100%;
+	padding: 0px !important;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #000000 !important;
+	/* background-color: #fff; */
+	background-clip: padding-box;
+	border: 0px solid #fb0f5a00;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius:0px;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	outline: none !important;
+}
+
+
+.contact-from .new-from .ba1 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	top: 0;
+	left: -164px;
+	z-index: -1;
+}
+
+.contact-from .new-from .ba2 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	top: 0;
+	right: -133px;
+	z-index: -1;
+}
+.contact-from .new-from .ba3 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: -123px;
+	left: -102px;
+	z-index: -1;
+}
+.contact-from .new-from .ba4 {
+	animation: action 2s infinite alternate;
+	-webkit-animation: action 2s infinite alternate;
+	position: absolute;
+	bottom: -154px;
+	right: -38px;
+	z-index: -1;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(30px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
