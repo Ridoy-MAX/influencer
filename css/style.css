@@ -2,6 +2,15 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
  */
+
+.img-menu{
+	width: 55px;
+	height: 55px;
+	border-radius: 100%;
+	border: 3px solid rgb(193, 37, 89);
+
+}
+
  .nav-link {
 	display: block;
 	padding: 20px !important;
@@ -969,21 +978,62 @@ font-family: 'Montserrat', sans-serif;
 
 
 
+.dropdown-menu.show {
+	 border: none !important;
+}
+
+.dropdown-menu {
+	 border: none !important;
+}
 
 
 
+.down .Follow-journey1{
+	margin-top: 0 !important;
+}
 
 
-
-
-
+.Follow-journey1 .box h3 {
+	margin-right: 50px;
+	margin-left: 2px;
+}
 
 /* ====================================
 responsive
 ====================================== */
 
+@media screen and (max-width: 1400px) {
+	.six .box img {
+		height: 318px;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border-bottom-left-radius: 0px !important;
+		border-bottom-right-radius: 0px !important;
+		width: 100% !important;
+	}
+	.one .photo .about1 {
+		height: 468px;
+	}
+	.one .photo .about {
+		position: absolute;
+		top: 238px;
+		left: 199px;
+		height: 413px;
+	}
+	.hi img {
+		margin-top: 50px;
+		width: 100% !important;
+		height: 89%;
+	}
+
+}
 
 @media screen and (max-width: 575px) {
+	.one .photo {
+		position: relative;
+		top: 47px;
+		margin-bottom: 140px;
+	}
 	.one {
 		margin-top: 12px;
 	}
