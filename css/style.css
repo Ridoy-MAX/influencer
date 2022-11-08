@@ -1032,6 +1032,35 @@ responsive
 	.one .photo {
 		position: relative;
 		top: 47px;
+		margin-bottom: 38px !important;
+	}
+	.one .text-detail span {
+		font-family: 'Montserrat', sans-serif !important;
+		margin-top: 28px;
+		margin-bottom: 22px;
+		color: #fb0f5a;
+		font-size: 32px !important;
+		line-height: 1.172em;
+		font-weight: 800;
+		letter-spacing: -0.03em;
+	}
+	.one .text-detail h1 {
+		font-family: 'Montserrat', sans-serif !important;
+		margin-top: 51px;
+		margin-bottom: 22px;
+		color: #0b091b;
+		font-size: 34px !important;
+		line-height: 1.172em;
+		font-weight: 800;
+		letter-spacing: -0.03em;
+	}
+	.one .photo {
+		position: relative;
+		top: 9px !important;
+	}
+	.one .photo {
+		position: relative;
+		top: 47px;
 		margin-bottom: 140px;
 	}
 	.one {
